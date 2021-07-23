@@ -1,0 +1,116 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charest="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<style>
+
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+*{
+	box-sizing: border-box;
+	margin:0;
+
+}
+
+.header{
+	background: black;
+	background: linear-gradient(to right, rgba(4,9,30,0.8), rgba(4,9,30,0.8)), url("gallery/atlantis.jpg");
+	background-size: cover;
+	margin:0;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.header h1{
+	font-size: 140px;
+	padding-top: 14%;
+	padding-bottom: 14%;
+}
+p{
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+}
+.nav {
+	background: #000;
+	width: 100%;
+	margin:0;
+	display: inline-flex;
+	justify-content: space-around;
+	position: fixed;
+	bottom:0;
+	left:0;
+	width: 100%;
+	
+}
+.nav a{
+	text-decoration: none;
+	color: white;
+	padding: 30px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+}
+h1.heading{
+	font-family: 'Pattaya', sans-serif;
+	color:  #2196f3;
+}
+
+
+.nav a:first-child:hover{
+	background: green;
+}
+
+.nav a:nth-child(2):hover{
+	background: red;
+}
+
+.nav a:nth-child(3):hover{
+	background: #2196f3;
+
+}
+.nav a:nth-child(4):hover{
+	background: #f44336;
+
+}
+
+.nav a:nth-child(5):hover{
+	background: orange;
+
+}
+a.active{
+	background: #2196f3;
+}
+
+
+
+	
+</style>
+<body>
+	
+	
+	<div class="header">
+		<h1 class="heading"> Atlantis The Plam </h1> 
+		<p> Hotel inside water </p>
+		
+	</div>
+
+	<div class="nav">
+
+		<a href="burj.html"> Burj Khalifa </a>
+		<a href="everest.html"> Mount Everest  </a>
+		<a href="atlantis.html" class="active"> Atlantis </a>
+		<a href="glass-bridge.html"> Zhangjiajie Glass Bridge </a>
+		<a href="tower.html"> Eiffel Tower </a>
+
+		
+
+	</div>
+
+</body>
+</html>
